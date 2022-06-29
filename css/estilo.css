@@ -9,14 +9,14 @@ body{
 
 #logo{
     font-family: 'Rosario', sans-serif;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 36px;
     padding-block: 30px;
 }
 
 h1{
     font-family: 'Rosario', sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 36px;
     padding: 0;
     margin: 0;
@@ -25,7 +25,7 @@ h1{
 a{
     color: #FFFFFF;
 
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     font-family: 'Rosario', sans-serif;
     
@@ -62,7 +62,7 @@ main{
 
     background: #E3FBF6;
 
-    margin-block: 100px 188px;
+    margin-block: 100px 175px;
     margin-inline: 200px;
 }
 
@@ -150,7 +150,28 @@ button:hover
 }
 
 footer{
-    background: #2C3E50;;
+    display: flex;
+    justify-content: space-between;
+
+    background: #2C3E50;
+
+    min-height: 121px;
+
+    margin: 0;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    color: #FFFFFF;
+}
+.redesSociais{
+    display: flex;
+    justify-content: center;
+    
+
 }
 
 
