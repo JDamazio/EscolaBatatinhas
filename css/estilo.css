@@ -150,6 +150,10 @@ button:hover
 }
 
 footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+
     display: flex;
     justify-content: space-between;
 
